@@ -42,7 +42,7 @@
                         <div class="widget-content-wrapper">
                             <div class="widget-content-left  mr-2 header-user-info">
                                 <div class="widget-heading">
-
+                                    <a class="btn btn-info" style="color: white" href="{{ route('main') }}">website </a>
                                 </div>
 
                             </div>

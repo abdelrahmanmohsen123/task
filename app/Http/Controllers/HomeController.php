@@ -43,7 +43,8 @@ class HomeController extends Controller
     public function post($id)
     {
         $post= Post::find($id);
-        return view('front.post',compact('post'));
+        $categories= Category::all();
+        return view('front.post',compact('post','categories'));
     }
 
     public function search(Request $request)
